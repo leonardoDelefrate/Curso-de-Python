@@ -1,0 +1,8 @@
+a= int(input('Digite um número'))
+b= int(input('Digite outro número'))
+print('A soma entre {} e {} vale {}'.format(a,b,a+b), end= '. ')
+print('A multiplicação entre {} e {} vale {} '.format(a,b,a*b),end='. ')
+print('A subtração de',a,'-',b,'vale {}'.format(a-b),end='. ')
+print('O resto da divisão entre {} e {} vale {}'.format(a,b,a%b),end='. ')
+print('A divisão entre {} e {} vale {}'.format(a,b,a/b),end='. ')
+print('A divisão inteira de {} e {} vale {}'.format(a,b,a//b),end='. ')
